@@ -1,0 +1,191 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #fff;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-self: unset;
+  padding: 20px;
+  background: #ffeedf;
+  background: linear-gradient(90deg, #ffeedf 10%, #c6f5ff 80%);
+  background: -webkit-linear-gradient(90deg, #ffeedf 10%, #c6f5ff 80%);
+  background: -moz-linear-gradient(90deg, #ffeedf 10%, #c6f5ff 80%);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 20px 20px 0 0;
+}
+
+.order-info {
+  padding: 10px;
+  background: #ffeedf;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.order-info input,
+.order-info textarea {
+  width: 96%;
+  padding: 4px;
+  margin: 5px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+.order-card {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 5px solid #000000;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
+  margin-bottom: 15px;
+}
+
+.order-card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.order-card .info {
+  flex: 10;
+}
+
+.order-card .qty {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.qty button {
+  background: #000000;
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+footer {
+  padding: 10px;
+  background: #ffeedf;
+  position: sticky;
+  bottom: 0;
+  border-radius: 8px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+footer .summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+footer button {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  background: #ebfbff;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+.history {
+  padding: 10px;
+  background: #f8f8f8;
+  margin: 20px 10px;
+  border-radius: 8px;
+}
+
+.history-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.history button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  background: #d3f9d8;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Tambahan untuk halaman riwayat.html */
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: linear-gradient(90deg, #ffeedf 10%, #c6f5ff 80%);
+  background: -webkit-linear-gradient(90deg, #ffeedf 10%, #c6f5ff 80%);
+  background: -moz-linear-gradient(90deg, #ffeedf 10%, #c6f5ff 80%);
+  padding: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.03);
+}
+
+.history-card {
+  background: linear-gradient(90deg, #ffeedf 10%, #c6f5ff 80%);
+  background: -webkit-linear-gradient(90deg, #ffeedf 10%, #c6f5ff 80%);
+  background: -moz-linear-gradient(90deg, #ffeedf 10%, #c6f5ff 80%);
+  border: 1px solid #eee;
+  border-radius: 15px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease;
+}
+
+.history-card:hover {
+  transform: scale(1.01);
+}
+
+button {
+  background-color: #ebfbff;
+  color: black;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px 5px 0 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #d1f3f8;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
